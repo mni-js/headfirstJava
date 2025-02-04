@@ -14,6 +14,9 @@ public class PrimitiveVariable {
 
         // char -> float: O
         // float f = c;
+
+        // char -> long: 
+        // long l = c;
         
         // byte
         // byte b = 127;
@@ -70,7 +73,7 @@ public class PrimitiveVariable {
         // float f = d;
 
         // boolean
-        boolean t = true;
+        // boolean t = true;
 
         // boolean -> char: X
         // char c = t;
@@ -80,7 +83,19 @@ public class PrimitiveVariable {
 
         // boolean -> double: X 
         // double d = t;
-        System.out.println(d);
+        // System.out.println(d);
+
+        // int
+        // int i = 65;
+
+        // int -> char: X
+        // char c = i; 
+
+        // double
+        // double d = 65;
+
+        // double -> char: 
+        // char c = d;
 
 
     }
