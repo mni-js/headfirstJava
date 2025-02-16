@@ -9,7 +9,7 @@ public class Jukebox2 {
         List<SongV2> songList = MockSongs.getSongsV2();
         System.out.println(songList);
 
-        Collections.sort(songList);
+        // Collections.sort(songList); // 에러 발생: songList가 Comparable 인터페이스를 구현하지 않아서 
         System.out.println(songList);
     }
 }
